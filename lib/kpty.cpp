@@ -26,6 +26,7 @@
 
 #include <QtDebug>
 
+#include "config.h"
 
 #if defined(__FreeBSD__) || defined(__DragonFly__)
 #define HAVE_LOGIN

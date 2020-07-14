@@ -4,6 +4,7 @@
 #include <QDir>
 #include <QtDebug>
 
+#include "config.h"
 
 /*! Helper function to get possible location of layout files.
 By default the KB_LAYOUT_DIR is used (linux/BSD/macports).

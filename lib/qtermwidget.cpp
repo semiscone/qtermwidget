@@ -22,6 +22,7 @@
 #include <QDir>
 #include <QMessageBox>
 
+#include "config.h"
 #include "ColorTables.h"
 #include "Session.h"
 #include "Screen.h"

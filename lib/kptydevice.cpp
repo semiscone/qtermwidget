@@ -40,6 +40,8 @@
 #include <termios.h>
 #include <fcntl.h>
 #include <sys/ioctl.h>
+#include "config.h"
+
 #ifdef HAVE_SYS_FILIO_H
 # include <sys/filio.h>
 #endif
@@ -57,8 +59,6 @@
   // likewise. more generic ioctl (theoretically)
 # define PTY_BYTES_AVAILABLE FIONREAD
 #endif
-
-
 
 
 //////////////////
